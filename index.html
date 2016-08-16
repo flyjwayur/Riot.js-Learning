@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+  <title>Riot JS-npm</title>
+</head>
+
+<body>
+  <hello-world greet="Hoodie"></hello-world>
+  <hello-world greet="Titay"></hello-world>
+  <hello-world greet="Hyesoo"></hello-world>
+  <hello-world></hello-world>
+
+  <script src="app.tag" type="riot/tag"></script>
+  <script src="bower_components/riot/riot.min.js"></script>
+  <script src="tags/hello-world.js"></script>
+  <script>
+  riot.mount('hello-world', { greet:'Joe' })
+  </script>
+</body>
+</html>
